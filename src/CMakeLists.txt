@@ -8,6 +8,7 @@ if(NOT XRT_PLUGIN_VERSION_STRING)
 endif()
 
 add_subdirectory(shim)
+add_subdirectory(shim_amdgpu)
 
 if(NOT XDNA_VE2)
   # Optionally build vxdna library
